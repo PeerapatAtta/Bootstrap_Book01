@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex13-6</title>
+
+    <link href="BS5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <script src="BS5.3.3/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="p-5">
+    <!--Offcanvas-->
+    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft"
+        aria-controls="offcanvasLeft">Show offcanvas left</button>
+
+    <a href="#offcanvasRight" class="btn btn-primary" data-bs-toggle="offcanvas">
+        Show offcanvas right</a>
+
+    <div class="offcanvas offcanvas-start" id="offcanvasLeft">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasLeftLabel" class="offcanvas-header">Offcanvas left</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <a href="#">Home</a><br>
+                <a href="#">About</a><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" id="offcanvasRight">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasRightLabel" class="offcanvas-title">Cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <ul>
+                    <li>iPhone</li>
+                    <li>Macbook</li>
+                    <li>iPad</li>
+                    <li>Samsung</li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+
+</html>
